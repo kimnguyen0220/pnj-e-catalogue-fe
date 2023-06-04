@@ -1,0 +1,10 @@
+@import "/src/scss/var";
+@import "/src/scss/var";
+
+.diamond-collection {
+  min-height: 456px;
+  background-color: $rectangle1;
+  @media (min-width: $md_min) {
+    min-height: 373px;
+  }
+}

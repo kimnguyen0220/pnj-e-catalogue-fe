@@ -9,6 +9,9 @@ html {
   
   body {
     margin: 0;
+    @media (min-width: $md_min) {
+      overflow-y: hidden;
+  }
   }
   
   article,
@@ -244,7 +247,7 @@ html {
   }
   
   p {
-    margin-bottom: 1.5em;
+    margin: 0
   }
   
   dfn,
@@ -310,10 +313,6 @@ html {
   *:before,
   *:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
     box-sizing: inherit;
-  }
-  
-  body {
-    background: #fff; /* Fallback for when there is no custom background color defined. */
   }
   
   blockquote:before,
@@ -666,13 +665,7 @@ html {
   .group-blog .byline {
     display: inline;
   }
-  
-  .page-content,
-  .entry-content,
-  .entry-summary {
-    margin: 1.5em 0 0;
-  }
-  
+    
   .page-links {
     clear: both;
     margin: 0 0 1.5em;
@@ -711,17 +704,6 @@ html {
     display: block;
   }
   
-  /*--------------------------------------------------------------
-  # Media
-  --------------------------------------------------------------*/
-  .page-content .wp-smiley,
-  .entry-content .wp-smiley,
-  .comment-content .wp-smiley {
-    border: none;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 0;
-  }
   
   
 

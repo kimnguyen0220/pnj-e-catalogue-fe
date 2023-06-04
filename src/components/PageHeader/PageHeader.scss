@@ -1,0 +1,22 @@
+@import "/src/scss/var";
+.page-header-container {
+  background-color: $white;
+  // box-shadow: -3.8342px 4.79275px 26.8394px rgba(0, 0, 0, 0.2),
+  //   inset -13.4197px -0.958549px 26.8394px -0.958549px rgba(149, 149, 149, 0.25);
+  .title-container {
+
+    h3 {
+      font-weight: 700;
+      font-size: 19.6549px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: $black;
+    }
+  }
+
+  .page-content {
+    @media (min-width: $md_min) {
+      height: 560px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import "/src/scss/var";
+
+.product-container {
+  // width: 155px;
+
+  .product-image {
+    height: 133px;
+    background-color: $gray;
+    img {
+    }
+  }
+  .product-content {
+    p {
+      font-weight: 400;
+      font-size: 11.2585px;
+      line-height: 16px;
+      color: $neutral;
+    }
+
+    span {
+      font-weight: 500;
+      font-size: 13.135px;
+      line-height: 20px;
+      color: $yellow;
+    }
+  }
+}

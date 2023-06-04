@@ -1,1 +1,7 @@
-@import './scss/styles';
+@import "./scss/styles";
+
+.app-container {
+  @media (min-width: $md_min) {
+    padding: 72px 158px 72px 30px;
+  }
+}

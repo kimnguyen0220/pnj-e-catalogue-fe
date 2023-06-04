@@ -1,0 +1,41 @@
+@import "/src/scss/var";
+.nav-bar {
+  background-color: $white;
+  border-radius: 8px;
+  .group-category {
+    .image {
+      background-color: $gray;
+      border-radius: 100%;
+      width: 26px;
+      height: 26px;
+      @media (min-width: $md_min) {
+        width: 49px;
+        height: 49px;
+      }
+    }
+
+    .category-name {
+      color: $neutral;
+      font-size: 10px;
+      @media (min-width: $md_min) {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .nav-navigate {
+    .image {
+      background-color: $gray;
+      border-radius: 100%;
+      width: 33px;
+      height: 33px;
+    }
+
+    .navigate-name {
+      color: $neutral;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@import "/src/scss/var";
+
+.slider-container {
+  width: 100%;
+  position: relative;
+  background-color: $white;
+  padding: 68px 0;
+
+  @media (min-width: $md_min) {
+    padding: 71px 0;
+  }
+
+  .react-stacked-center-carousel-slide-0 {
+    transform: translateX(0px) scale(2,1) !important;
+    @media (min-width: $md_min) {
+      transform: translateX(0px) scale(1) !important;
+    }
+
+    // width: 105px !important;
+    // height: 108px;
+  }
+
+  .btn-action {
+    background-color: $gray !important;
+    border-radius: 100%;
+    background: 100%;
+    // position: absolute;
+    top: 50%;
+    bottom: 50%;
+    z-index: 9;
+    width: 33px;
+    height: 33px;
+    display: none;
+    @media (min-width: $md_min) {
+      display: block;
+    }
+    &.btn-prev {
+      left: 1.3rem;
+      padding: 0 10px;
+    }
+    &.btn-next {
+      right: 1.3rem;
+      padding: 0 12px;
+    }
+  }
+}

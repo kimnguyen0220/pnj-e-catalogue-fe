@@ -1,9 +1,10 @@
-import './App.scss';
+import "./App.scss";
+import { RootRoute } from "routes/RootRoute";
 
 function App() {
   return (
-    <div className="text-3xl font-bold underline">
-        Catalogue App
+    <div className="flex items-center justify-center md:h-screen">
+      <RootRoute />
     </div>
   );
 }

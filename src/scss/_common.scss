@@ -1,0 +1,54 @@
+@import "./var";
+body {
+  background-color: $bgColor;
+}
+
+.btn-navigate {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: $black;
+}
+
+.btn {
+  border-radius: 24px;
+  font-weight: 500;
+  font-size: 13.4197px;
+  line-height: 20px;
+  padding: 4px 16px;
+  &.primary {
+    background-color: $white;
+    border: 1px solid $borderColor;
+    color: $neutral;
+  }
+
+  &.secondary {
+    color: $textColor3;
+    background-color: $gray4;
+  }
+
+  &.plus {
+    color: $white;
+    background-color: $btnGray;
+    &::before {
+      margin-right: 5px;
+      content: url("../assets/icons/plus.svg");
+    }
+  }
+}
+
+.per-page {
+  @media (min-width: $md_min) {
+    // padding: 71px 0;
+    width: 555px;
+    box-shadow: -3.8342px 4.79275px 26.8394px rgba(0, 0, 0, 0.2),
+      inset -13.4197px -0.958549px 26.8394px -0.958549px rgba(149, 149, 149, 0.25);
+  }
+}
+
+.description {
+  font-weight: 500;
+  font-size: 11.5026px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.37);
+}
