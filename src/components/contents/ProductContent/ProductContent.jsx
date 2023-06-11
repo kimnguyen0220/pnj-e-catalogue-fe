@@ -75,8 +75,8 @@ export const ProductContent = () => {
           </div>
         </div>
       </PageHeader>
-      <PageHeader title="YOU MIGHT ALSO LIKE">
-        <div className="grid grid-cols-2 gap-y-5 pb-4 md:pl-14 md:pr-14 md:gap-x-20 md:pt-9 md:pb-20">
+      <PageHeader flip title="YOU MIGHT ALSO LIKE">
+        <div className="grid grid-cols-2 gap-y-5 gap-x-2 pb-4 md:pl-14 md:pr-14 md:gap-x-20 md:pt-9 md:pb-20">
           {similarData &&
             similarData.map((product) => (
               <div className="col-span-1">

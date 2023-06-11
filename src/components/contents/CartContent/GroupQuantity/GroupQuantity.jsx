@@ -5,7 +5,7 @@ import minusIcon from "assets/icons/minus.svg";
 export const GroupQuantity = ({ quantity }) => {
   return (
     <>
-      <div className="quantity-container flex w-24 mt-5">
+      <div className="quantity-container flex w-24 mt-5 md:mt-1">
         <img src={plusBlackIcon} />
         <span className="mr-6 ml-6">{quantity}</span>
         <img src={minusIcon} />

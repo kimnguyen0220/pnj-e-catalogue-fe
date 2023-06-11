@@ -31,8 +31,8 @@ export const CategoryContent = ({ data }) => {
           </div>
         </div>
       </PageHeader>
-      <PageHeader>
-        <div className="grid grid-cols-2 gap-x-2 gap-y-5 pb-4 md:pl-20 md:pr-20 md:gap-x-20 md:pt-9 md:pb-20">
+      <PageHeader flip contentClassName="md:mt-16">
+        <div className="grid grid-cols-2 gap-x-2 gap-y-5 pb-4 md:pl-20 md:pr-20 md:gap-x-20 md:pb-20">
           {data &&
             data.map((item) => (
               <div className="col-span-1">

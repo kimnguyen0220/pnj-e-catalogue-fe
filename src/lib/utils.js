@@ -5,3 +5,8 @@ export const getSvgIcon = (iconName) => {
 export const getPngImage = (imageName) => {
     return imageName ? `src/assets/images/${imageName}.png` : undefined
 }
+
+export const VNDong = new Intl.NumberFormat('vi-VN', {
+    style: 'currency',
+    currency: 'VND'
+})

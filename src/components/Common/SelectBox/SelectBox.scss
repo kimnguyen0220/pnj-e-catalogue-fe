@@ -1,0 +1,20 @@
+@import "/src/scss/var";
+
+.select-box-container {
+  select {
+    border: 1px solid $inputBorder;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 14px;
+
+    option {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    //   color: $selectOptionTxt;
+    color: red;
+    }
+  }
+}

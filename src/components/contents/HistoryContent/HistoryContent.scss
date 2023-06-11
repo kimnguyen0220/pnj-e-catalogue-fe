@@ -1,0 +1,33 @@
+@import "/src/scss/var";
+
+.history-container {
+  .product-wrapper {
+    max-height: 120px;
+    overflow: auto;
+  }
+
+  .btn-show-more {
+    span {
+      font-weight: 400;
+      font-size: 11.5026px;
+      line-height: 16px;
+      color: $neutral;
+    }
+  }
+
+  .total-price {
+    background-color: $gray;
+    padding: 10px 12px;
+    span {
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 15px;
+      color: $neutral2;
+    }
+
+    label {
+      @extend span;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -37,6 +37,15 @@ body {
   }
 }
 
+.btn-submit {
+  background-color: $gray;
+  color: $black;
+  font-weight: 700;
+  font-size: 19.6549px;
+  line-height: 24px;
+  padding: 10px;
+}
+
 .per-page {
   @media (min-width: $md_min) {
     // padding: 71px 0;
@@ -51,4 +60,78 @@ body {
   font-size: 11.5026px;
   line-height: 14px;
   color: rgba(0, 0, 0, 0.37);
+}
+
+.label-txt {
+  font-weight: 600;
+  font-size: 11.5026px;
+  line-height: 16px;
+  color: $neutral;
+}
+
+.page-container-flip {
+  position: relative;
+  transform: translate(0%, 0%);
+  perspective: 1000px;
+
+  .flip {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: transparent;
+    left: 0px;
+    transition: all 0.5s ease-in;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    transform-origin: left;
+
+    animation-duration: 1s;
+
+    &.animation-right-to-left {
+      animation-name: flipRightToLeft;
+    }
+
+    &.animation-left-to-right {
+      animation-name: flipLeftToRight;
+    }
+
+  }
+
+  .page-cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: transparent;
+    left: 0px;
+    transition: all 0.5s linear;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    transform-origin: left;
+  }
+}
+
+@keyframes flipRightToLeft {
+  from {
+    background-color: $white;
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: rotateY(-180deg);
+    // background-color: $white;
+    opacity: .8;
+  }
+}
+
+@keyframes flipLeftToRight {
+  from {
+    background-color: $white;
+    transform: rotateY(-180deg);
+    opacity: 1;
+  }
+  to {
+    transform: rotateY(0deg);
+    background-color: $white;
+    opacity: 1;
+  }
 }

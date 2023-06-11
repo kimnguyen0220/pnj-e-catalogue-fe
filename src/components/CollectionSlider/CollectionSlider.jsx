@@ -6,7 +6,7 @@ import {
 
 import { SliderImageCard, ButtonNext } from "components";
 import prevIcon from "assets/icons/prev.svg";
-
+import nextIcon from "assets/icons/next.svg"
 import "./CollectionSlider.scss";
 export const CollectionSlider = () => {
   const ref = useRef();
@@ -80,9 +80,9 @@ export const CollectionSlider = () => {
         </div>
       </div>
 
-      {/* <button className="btn-action btn-next" onClick={onNext}>
+      <button className="btn-action btn-next" onClick={onNext}>
         <img src={nextIcon} />
-      </button> */}
+      </button>
     </div>
   );
 };

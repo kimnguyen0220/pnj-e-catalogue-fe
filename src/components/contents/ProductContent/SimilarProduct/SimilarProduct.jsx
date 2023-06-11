@@ -4,7 +4,6 @@ export const SimilarProduct = ({ productList }) => {
   return (
     <PageHeader
       title="YOU MIGHT ALSO LIKE"
-      absoluteHeader={false}
       hasPadding={false}
     >
       <div className="grid grid-cols-2 gap-2">

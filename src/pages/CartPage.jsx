@@ -17,6 +17,7 @@ export const CartPage = () => {
       price: 277000,
       image: "",
     },
+    
   ];
   return <CartContent data={cartData} />;
 };
