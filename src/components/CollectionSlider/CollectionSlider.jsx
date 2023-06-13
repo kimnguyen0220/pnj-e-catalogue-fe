@@ -44,7 +44,7 @@ export const CollectionSlider = () => {
   return (
     <div className="flex justify-center items-center slider-container pl-4">
       <button className="btn-action btn-prev" onClick={onPrev}>
-        <img src={prevIcon} />
+        <img src={prevIcon} alt="prev-icon" />
       </button>
       <div className="flex-1">
         <ResponsiveContainer
@@ -81,7 +81,7 @@ export const CollectionSlider = () => {
       </div>
 
       <button className="btn-action btn-next" onClick={onNext}>
-        <img src={nextIcon} />
+        <img src={nextIcon} alt="next icon" />
       </button>
     </div>
   );

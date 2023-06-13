@@ -42,7 +42,7 @@ export const HistoryContent = ({ data }) => {
                       ))}
                   </div>
                   <p className="btn-show-more flex flex-row gap-2 mt-2">
-                    <img src={arrowDown} />
+                    <img src={arrowDown} alt="arrow down icon" />
                     <span>Show more items</span>
                   </p>
 
@@ -91,7 +91,7 @@ export const HistoryContent = ({ data }) => {
                       ))}
                   </div>
                   <p className="btn-show-more flex flex-row gap-2 mt-2">
-                    <img src={arrowDown} />
+                    <img src={arrowDown} alt="arrow down icon" />
                     <span>Show more items</span>
                   </p>
                   <div className="total-price flex justify-between mb-4 mt-4">

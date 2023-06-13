@@ -4,7 +4,7 @@ export const ButtonNext = ({ name, link }) => {
   return (
     <div className="flex">
       <button className="btn-navigate mr-2">{name}</button>
-      <img src={arrowNext} />
+      <img src={arrowNext} alt="arrow next" />
     </div>
   );
 };
