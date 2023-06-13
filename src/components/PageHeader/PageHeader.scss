@@ -1,8 +1,6 @@
 @import "/src/scss/var";
 .page-header-container {
   background-color: $white;
-  // box-shadow: -3.8342px 4.79275px 26.8394px rgba(0, 0, 0, 0.2),
-  //   inset -13.4197px -0.958549px 26.8394px -0.958549px rgba(149, 149, 149, 0.25);
   .title-container {
 
     h3 {
@@ -27,8 +25,8 @@
   .wrapper {
     background-color: $white;
     animation-name: showPage;
-    transition: all 2s ease-in;
-    animation-duration: .5s;
+    transition: all .5s ease-in;
+    animation-duration: 1s;
     opacity: 0;
     overflow: hidden;
     inset: 0;
@@ -38,9 +36,9 @@
 
 
 @keyframes showPage {
-  0% { opacity: .8;}
-  25% { opacity: .6; }
-  50% { opacity: .4 }
+  0% { opacity: 1;}
+  25% { opacity: 1; }
+  50% { opacity: 1 }
   75% { opacity: .2 }
   100% { opacity: 0}
 }

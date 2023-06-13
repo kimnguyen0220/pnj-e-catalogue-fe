@@ -1,4 +1,6 @@
 import { useAppNavigate } from "hooks";
+import { ROUTER_PATH } from "lib/constants";
+
 import "./Navbar.scss";
 export const Navbar = () => {
   const { handleNavigatePage, handleNextPage, handlePrevPage } =
@@ -13,19 +15,19 @@ export const Navbar = () => {
     {
       name: "Categories",
       img: "",
-      link: "category",
+      link: ROUTER_PATH.CATEGORY,
       position: 2,
     },
     {
       name: "History",
       img: "",
-      link: "/history",
+      link: ROUTER_PATH.HISTORY,
       position: 3,
     },
     {
       name: "Cart",
       img: "",
-      link: "cart",
+      link: ROUTER_PATH.CART,
       position: 4,
     },
   ];

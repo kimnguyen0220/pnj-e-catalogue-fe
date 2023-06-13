@@ -7,6 +7,8 @@ import {
 import { SliderImageCard, ButtonNext } from "components";
 import prevIcon from "assets/icons/prev.svg";
 import nextIcon from "assets/icons/next.svg"
+import { ROUTER_PATH } from "lib/constants";
+
 import "./CollectionSlider.scss";
 export const CollectionSlider = () => {
   const ref = useRef();
@@ -76,7 +78,7 @@ export const CollectionSlider = () => {
           }}
         />
         <div className="max-sm:hidden flex justify-end mt-6 pl-10 pr-10">
-          <ButtonNext name="Categories" link="" />
+          <ButtonNext name="Categories" link={ROUTER_PATH.CATEGORY} />
         </div>
       </div>
 

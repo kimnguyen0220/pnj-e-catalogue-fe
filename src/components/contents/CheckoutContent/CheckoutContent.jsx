@@ -1,4 +1,5 @@
 import { PageHeader, InputText, ButtonNext, ButtonBack } from "components";
+import { ROUTER_PATH } from "lib/constants";
 
 export const CheckoutContent = () => {
   return (
@@ -31,9 +32,9 @@ export const CheckoutContent = () => {
           </div>
 
           {/* SUBMIT TABLET*/}
-          <div className="max-md:hidden flex justify-between mb-">
-            <ButtonBack name="Cart" />
-            <ButtonNext name="Next" />
+          <div className="max-md:hidden flex justify-between mb-2">
+            <ButtonBack name="Cart" link={ROUTER_PATH.CART} />
+            <ButtonNext name="Next" link={ROUTER_PATH.SCAN_CODE}/>
           </div>
         </form>
       </PageHeader>

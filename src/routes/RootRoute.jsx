@@ -7,13 +7,13 @@ export const RootRoute = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="" Component={HomePage} />
-        <Route path="" Component={PageContainer}>
+        <Route index Component={HomePage} />
+        <Route path="store" Component={PageContainer}>
           {rootRoute.map((item) => (
             <Route key={item.path} path={item.path} Component={item.Component} />
           ))}
         </Route>
       </Routes>
-    </BrowserRouter>
+   </BrowserRouter>
   );
 };

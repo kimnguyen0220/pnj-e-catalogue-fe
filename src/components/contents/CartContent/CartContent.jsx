@@ -1,4 +1,5 @@
 import { PageHeader, ProductCard, GroupQuantity, ButtonNext } from "components";
+import { ROUTER_PATH } from "lib/constants";
 
 export const CartContent = ({ data }) => {
   return (
@@ -15,7 +16,7 @@ export const CartContent = ({ data }) => {
               ))}
           </div>
           <div className="flex justify-end mt-6 mb-6 md:mt-2 md:mr-10">
-            <ButtonNext name="Check out" link="" />
+            <ButtonNext name="Check out" link={ROUTER_PATH.CHECKOUT} />
           </div>
         </div>
       </PageHeader>
