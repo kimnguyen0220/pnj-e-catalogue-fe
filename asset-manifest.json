@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pnj-e-catalogue-fe/static/css/main.fab95de5.css",
+    "main.js": "/pnj-e-catalogue-fe/static/js/main.fddf7d99.js",
+    "static/js/787.382d620a.chunk.js": "/pnj-e-catalogue-fe/static/js/787.382d620a.chunk.js",
+    "static/media/diamond-ring.png": "/pnj-e-catalogue-fe/static/media/diamond-ring.dcb3e3a8e0d14cd22d66.png",
+    "index.html": "/pnj-e-catalogue-fe/index.html",
+    "static/media/arrow-down.svg": "/pnj-e-catalogue-fe/static/media/arrow-down.03e6427477f7fe010f975dfe8542d5bd.svg",
+    "static/media/next.svg": "/pnj-e-catalogue-fe/static/media/next.13889c0e0c63798d562a6a9246e2746d.svg",
+    "static/media/plus.svg": "/pnj-e-catalogue-fe/static/media/plus.3bb7b94a8c45d932e1a2.svg",
+    "static/media/prev.svg": "/pnj-e-catalogue-fe/static/media/prev.10be1e1234628998d3d457a67c63f0fe.svg",
+    "static/media/plus-black.svg": "/pnj-e-catalogue-fe/static/media/plus-black.386d52e6674e7a1fa26013c04d3feaad.svg",
+    "static/media/arrow-back.svg": "/pnj-e-catalogue-fe/static/media/arrow-back.acd2b075ef8bb3876f5b70b25084bd86.svg",
+    "static/media/arrow-next.svg": "/pnj-e-catalogue-fe/static/media/arrow-next.91d72704ca3f089448d45d5d9ed86ecf.svg",
+    "static/media/minus.svg": "/pnj-e-catalogue-fe/static/media/minus.5d6a098cd6f6af820dd0660d9cb66905.svg",
+    "main.fab95de5.css.map": "/pnj-e-catalogue-fe/static/css/main.fab95de5.css.map",
+    "main.fddf7d99.js.map": "/pnj-e-catalogue-fe/static/js/main.fddf7d99.js.map",
+    "787.382d620a.chunk.js.map": "/pnj-e-catalogue-fe/static/js/787.382d620a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fab95de5.css",
+    "static/js/main.fddf7d99.js"
+  ]
+}
